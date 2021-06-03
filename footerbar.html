@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Bar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .footerh6{
+            border-left: 5px solid red;
+            padding-left: 4%;
+        }
+        ion-icon{
+            color: red;
+            --ionicon-stroke-width: 16px;
+            padding: 5px;
+            font-size: 23px;
+        }
+        @media (max-width:600px) {
+            .footerLogos{
+                margin-right: -75%;
+            }
+        }
+        @media (max-width:993px) {
+            .footerLogos{
+                margin-right: -60%;
+            }
+            .footerEmail{
+                margin-right: -20%;
+            }
+        }
+        @media (max-width:770px) {
+            .footerEmail{
+                margin-right: 0%;
+            }
+        }
+        .footerA{
+            color: black;
+            text-decoration: none;
+            margin-bottom: 0.7rem;           
+        }
+        .footerA:hover{
+            color: red;
+            text-decoration: none;
+        }
+        .footerContact{
+            margin-bottom: -0.3rem;
+        }
+        .footerBar{
+            background-color: black;
+            color: white;
+            height: 5vh;
+            line-height: 4vh;
+        }
+    </style>
+</head>
+<body>
+    <!-- Footer bar -->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5 class="mb-3"><b>BooksLuva</b></h5>
+                    <p class="text-muted">It is a proud moment to say that BooksLuva is the first start-up of GEC,
+                         Patan to get a Start-up fund under SSIP Policy of Government of Gujarat.
+                    </p><br>
+                </div>
+                <div class="col">
+                    <h6 class="mb-3"><span class="footerh6"></span> For Customers</h6>
+                    <ul class="list-group">
+                        <a href="#" class="footerA">Orders</a>
+                        <a href="#" class="footerA">Addresses</a>
+                        <a href="#" class="footerA">Account Details</a>
+                        <a href="#" class="footerA">Lost Password</a>
+                    </ul><br><br>
+                </div>
+                <div class="col">
+                    <h6 class="mb-3"><span class="footerh6"></span> Quick Links</h6>
+                    <ul class="list-group ">
+                        <a href="#" class="footerA">Blog</a>
+                        <a href="#" class="footerA">About Us</a>
+                        <a href="#" class="footerA">Contact Us</a>
+                        <a href="#" class="footerA">My Account</a>
+                        <a href="#" class="footerA">Shop</a>
+                    </ul><br><br>
+                </div>
+                <div class="col">
+                    <h6 class="mb-3"><span class="footerh6"></span> Contact Info</h6>
+                    <div class="row footerContact">
+                        <div class="mt-2 col col-lg-2 footerLogos">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="col">
+                            <p><b>Address:</b> <br>
+                            <span class="text-muted"> Vastrapur, Ahmedabad</span></p>
+                        </div>
+                    </div>
+                    <div class="row footerContact">
+                        <div class="mt-2 col col-lg-2 footerLogos">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+                        <div class="col">
+                            <p><b>Phone:</b> <br>
+                            <span class="text-muted"> 9974792746</span></p>
+                        </div>
+                    </div>
+                    <div class="row footerContact">
+                        <div class="mt-2 col col-lg-2 footerLogos">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="col">
+                            <p><b>Mobile:</b> <br>
+                            <span class="text-muted"> 9974792746</span></p>
+                        </div>
+                    </div>
+                    <div class="row footerContact">
+                        <div class="mt-2 col col-lg-2 footerLogos">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="col footerEmail">
+                            <p><b>Email:</b> <br>
+                            <span class="text-muted">kanhapal39@gmail.com</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- Bar -->
+        <div class="footerBar">
+            <p class="text-center"><b>&copy;</b> Swastik Library BooksLuva</p>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
